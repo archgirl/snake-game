@@ -5,6 +5,10 @@ body {
   font-size: 1.2em;
 }
 
+sup {
+  font-size: 0.6em;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -19,4 +23,15 @@ canvas {
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+  padding-top: 20px;
+  margin-bottom: 30px;
 }
